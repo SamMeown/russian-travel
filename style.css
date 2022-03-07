@@ -135,3 +135,32 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+.intro__title {
+  margin: 0 0 40px;
+  width: 690px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+.intro__text {
+  margin: 0 0 33px;
+  width: 690px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+  width: 690px;
+  list-style: none;
+}
+
+.intro__list-item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+}
