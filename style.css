@@ -50,11 +50,11 @@
 }
 
 .section_width_desktop-m {
-  max-width: calc(100% - 2*48px);
+  width: calc(100% - 2*48px);
 }
 
 .section_width_desktop-s {
-  max-width: calc(100% - 2*148px);
+  width: calc(100% - 2*148px);
 }
 
 .section_margin_desktop-s {
@@ -385,11 +385,21 @@
 
 @media screen and (max-width: 1279px) {
   .section_width_laptop-m {
-    max-width: calc(100% - 2*48px);
+    width: calc(100% - 2*48px);
+  }
+
+  /* Для плавного увеличения полей */
+  .section_width_laptop-m.section_width_desktop-s {
+    max-width: calc(1280px - 2*148px);
   }
 
   .section_width_laptop-l {
-    max-width: 100%;
+    width: 100%;
+  }
+
+  /* Для плавного увеличения полей */
+  .section_width_laptop-l.section_width_desktop-m {
+    max-width: calc(1280px - 2*48px);
   }
 
   .section_margin_laptop-s {
