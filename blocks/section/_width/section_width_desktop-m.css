@@ -1,0 +1,3 @@
+.section_width_desktop-m {
+  width: calc(100% - 2*48px);
+}
