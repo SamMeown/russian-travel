@@ -19,3 +19,14 @@
     grid-gap: 48px 32px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .places__item {
+    grid-template-columns: minmax(320px, 340px) minmax(min-content, max-content);
+    grid-gap: 48px 28px;
+  }
+
+  .places__item + .places__item {
+    margin-top: 73px;
+  }
+}

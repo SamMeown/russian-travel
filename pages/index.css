@@ -59,3 +59,9 @@
 @import url(../blocks/section/_width/section_width_laptop-l.css);
 @import url(../blocks/section/_margin/section_margin_laptop-s.css);
 @import url(../blocks/section/_margin/section_margin_laptop-m.css);
+
+@import url(../blocks/section/_width/section_width_tablet-m.css);
+@import url(../blocks/section/_width/section_width_tablet-l.css);
+@import url(../blocks/section/_margin/section_margin_tablet-s.css);
+@import url(../blocks/section/_margin/section_margin_tablet-m.css);
+@import url(../blocks/section/_margin/section_margin_tablet-l.css);
