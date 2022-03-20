@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .section_width_mobile-m {
+    width: calc(100% - 2*16px);
+  }
+
+  .section_width_mobile-m.section_width_tablet-m {
+    max-width: calc(768px - 2*24px);
+  }
+}

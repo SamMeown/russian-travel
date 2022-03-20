@@ -6,3 +6,12 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 48px;
+  }
+}

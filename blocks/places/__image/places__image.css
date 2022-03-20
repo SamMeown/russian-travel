@@ -3,3 +3,11 @@
   grid-area: image;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .places__image {
+    justify-self: center;
+    width: calc(100% + 2*16px);
+    max-width: calc(768px - 2*24px);
+  }
+}

@@ -30,3 +30,19 @@
     margin-top: 73px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    grid-template-columns: minmax(288px, 1fr);
+    grid-row-gap: 32px;
+    grid-template-areas:
+      "title"
+      "link"
+      "image"
+      "description";
+  }
+
+  .places__item + .places__item {
+    margin-top: 50px;
+  }
+}
