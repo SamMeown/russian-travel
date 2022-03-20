@@ -1,0 +1,14 @@
+.places__item {
+  display: grid;
+  grid-template-columns: minmax(440px, 460px) minmax(min-content, max-content);
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "title link"
+    "image description";
+  padding: 0;
+  margin: 0;
+}
+
+.places__item + .places__item {
+  margin-top: 80px;
+}
