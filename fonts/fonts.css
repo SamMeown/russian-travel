@@ -6,14 +6,6 @@
   src: url('./inter-400.woff') format('woff2'),
        url('./inter-400.woff') format('woff');
 }
-/* inter-500 */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  src: url('./inter-500.woff2') format('woff2'),
-       url('./inter-500.woff') format('woff');
-}
 /* inter-700 */
 @font-face {
   font-family: 'Inter';
