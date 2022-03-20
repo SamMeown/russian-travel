@@ -1,0 +1,10 @@
+@media screen and (max-width: 1279px) {
+  .section_width_laptop-l {
+    width: 100%;
+  }
+
+  /* Для плавного увеличения полей */
+  .section_width_laptop-l.section_width_desktop-m {
+    max-width: calc(1280px - 2*48px);
+  }
+}

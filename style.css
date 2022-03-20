@@ -1,49 +1,4 @@
 
-
-@media screen and (max-width: 1279px) {
-  .section_width_laptop-m {
-    width: calc(100% - 2*48px);
-  }
-
-  /* Для плавного увеличения полей */
-  .section_width_laptop-m.section_width_desktop-s {
-    max-width: calc(1280px - 2*148px);
-  }
-
-  .section_width_laptop-l {
-    width: 100%;
-  }
-
-  /* Для плавного увеличения полей */
-  .section_width_laptop-l.section_width_desktop-m {
-    max-width: calc(1280px - 2*48px);
-  }
-
-  .section_margin_laptop-s {
-    margin-bottom: 48px;
-  }
-
-  .section_margin_laptop-m {
-    margin-bottom: 92px;
-  }
-
-  .lead__subtitle {
-    margin: 0 0 56px;
-  }
-
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 14px;
-  }
-
-  .places__item {
-    grid-template-columns: minmax(340px, 440px) minmax(min-content, max-content);
-    grid-gap: 48px 32px;
-  }
-}
-
-
 @media screen and (max-width: 1023px) {
   .section_width_tablet-m {
     width: calc(100% - 2*24px);
